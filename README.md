@@ -1,3 +1,3 @@
-# WhatsApp Link Generator
+# Car Loan Calculator
 
-Quickly generate a personalized WhatsApp link with a predefined message and you can share it with your audience on your Social Media!
+Use our calculator to estimate your monthly car loan payments. Enter a car price and adjust other factors as needed to see how changes affect your estimated payment.
