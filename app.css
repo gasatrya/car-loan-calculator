@@ -1,0 +1,126 @@
+:root {
+  --accent-color: #2957b4;
+  --white-color: #fff;
+  --font-family: 'Inter', sans-serif;
+}
+
+body {
+  background-color: #f5f5f5;
+  font-family: var(--font-family);
+}
+
+.car__header {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  height: 80px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 567px) {
+  .car__header {
+    height: 50px;
+    text-align: left;
+  }
+}
+
+.car__logo {
+  margin-bottom: 10px;
+}
+
+@media (min-width: 567px) {
+  .car__logo {
+    margin-bottom: 0;
+  }
+}
+
+.car__github {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 567px) {
+  .car__github {
+    justify-content: flex-end;
+  }
+}
+
+.car__github a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: var(--white-color);
+  font-size: 14px;
+}
+
+.car__github a:not(:last-of-type) {
+  margin-right: 14px;
+}
+
+.car__github svg {
+  width: 24px;
+  margin-right: 5px;
+}
+
+.car__wrapper {
+  width: 100%;
+  max-width: 800px;
+  padding: 15px;
+  margin: auto;
+}
+
+.h3 {
+  font-weight: 700;
+}
+
+.invalid {
+  color: #d54552;
+  font-weight: 700;
+}
+
+label {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.btn {
+  font-size: 14px;
+}
+
+.btn-primary {
+  background-color: var(--accent-color);
+  border-color: var(--accent-color);
+}
+
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled):active,
+.btn-primary:focus {
+  background-color: rgb(41, 87, 180, 0.9);
+  border-color: var(--accent-color);
+}
+
+.btn-danger {
+  background-color: transparent;
+  color: #dc3545;
+}
+
+.btn-clear {
+  display: none;
+}
+
+.result {
+  text-align: center;
+}
+
+.result__text {
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.result__number {
+  font-weight: 700;
+  font-size: 30px;
+  color: var(--accent-color);
+}
